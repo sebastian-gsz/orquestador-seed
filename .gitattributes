@@ -1,0 +1,4 @@
+# Fins de línea forzados: los scripts de hook se rompen con CRLF
+# (un checkout con autocrlf convierte #!/bin/sh\n en #!/bin/sh\r y el exec falla)
+*.sh text eol=lf
+fase-5-workboard/hooks/* eol=lf
