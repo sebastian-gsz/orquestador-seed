@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-022] Montaje determinista: capas de ejecución en código que verifican la compleción del montaje, de cada tarea y de todos sus componentes",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-022-anti-deriva-ciclo-git-montaje.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* Nuevo verificador de montaje por ejecución (fase-5-workboard/verify-mount.mjs, copiable al destino): comprueba por código, no por lectura — (a) git: ≥ 1 commit, árbol limpio, harness trackeado; (b) core.hooksPath configurado y hook ejecutable; (c) workboard: verify-workboard.mjs con código 0; (d) fidelidad de las copias del destino contra la versión de semilla (hashes de módulos); (e) cero referencias internas colgantes (materiales citados que no viajan con la semilla); (f) entrada de procedencia presente con versión real; (g) estado de desmontaje registrado\n* F7 reorganizada alrededor del verificador de montaje: las verificaciones mecánicas de §7.1 se ejecutan por código (la checklist de lectura queda mínima); el ítem de prueba de fuego del destino no puede cerrarse con verify-mount en rojo — la compleción del montaje es un estado comprobado, no un relato\n* Definición de Done mecánica del montaje (F7): completo solo cuando verify-mount sale 0 y cada fase tiene su salida verificada registrada; las fases diferibles (F4b, F6, evals, desmontaje) quedan como pendientes explícitas del workboard del destino con dueño declarado, nunca como omisión silenciosa\n* Batería de evals autocontenida: la semilla incluye su propio fixture mínimo y los escenarios EVAL-1..5 (eliminada la dependencia de ai-evals.md del corpus, que no viaja con la semilla); EVAL-5 (misma entrega vía commit) bloqueante también en montajes, no solo en releases\n* La semilla es determinista consigo misma: aplica a su propio repo las capas que predica — self-check de montaje en verde, hook activo (ya instalado, se verifica), rama de integración develop conforme a su propio §5.3 o corrección expresa de esa regla, historial con commits verificables y CHANGELOG ↔ tag coherentes\n* verify-workboard.mjs ampliado con checks de compleción por tarea y sus componentes: cada ruta de touches existe en el repo; decision_log en el front-matter (rechaza bloques sueltos en el cuerpo); fechas plausibles (parámetro de año de nacimiento del destino); en runbooks, last_reviewed no anterior a la última fecha del documento\n* Reglas anti-deriva redactadas en fase-1 (§5 del mapa maestro) y fase-5-ARCHITECTURE (§4.3/§4.5): entrega completa = ítem + proyecciones + verificador + commit; alcance colateral = ampliar touches con decision_log antes de tocar cualquier estado documentado fuera de ellos; reconciliación de superficies externas = lectura de verificación del estado resultante en la misma entrega de toda operación con efecto real\n* Reglas de montaje actualizadas (fase-0 y fase-5 README): el estado git del destino (commit inicial + hooksPath) es decisión de F0 y paso obligatorio del montaje; su omisión bloquea F7\n* Demostración sobre fixture: el nuevo verify-mount detecta como fallo exactamente los modos observados en el informe de campo (montaje sin commits, hook sin instalar, referencia a material inexistente, desmontaje sin registrar)\n* Release con la mejora (CHANGELOG + tag) y verificadores en verde en _dev/workboard\n\n\n\nh3. Touches\n\n* fase-0-decisiones.md\n* fase-1-mapa-maestro.md\n* fase-5-workboard/README.md\n* fase-5-workboard/ARCHITECTURE.md\n* fase-5-workboard/verify-workboard.mjs\n* fase-5-workboard/verify-mount.mjs\n* fase-7-verificacion.md\n* SEED.md\n* CHANGELOG.md",
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ],
+    "fixVersions": [
+      {
+        "name": "v2.3.0"
+      }
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-022",
+    "archivo": "_dev/workboard/items/_done/SEED-022-anti-deriva-ciclo-git-montaje.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [],
+    "informes": "limpia"
+  }
+}

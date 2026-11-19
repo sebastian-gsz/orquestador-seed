@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-025] Fase 2 — Migración de los 23 ítems archivados como issues Done en Jira",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-025-migracion-historico-jira.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* Las 23 cargas Done existen como JSON validado en _dev/migracion-jira/cargas/ con fixVersion real, labels y descripción resumen (sin secretos, principio 10) — CUMPLIDO\n* external de cada ítem archivado apunta a su issue — DIFERIDO a la prueba final (requiere URLs reales)\n* Tablero Done de Jira = 23 issues archivadas — DIFERIDO a la prueba final (dueño: operador)\n\n\n\nh3. Touches\n\n* _dev/workboard/items/_done/\n* _dev/workboard/\n* CHANGELOG.md",
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-025",
+    "archivo": "_dev/workboard/items/_done/SEED-025-migracion-historico-jira.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [],
+    "informes": "limpia"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-024] Fase 1 — Montaje del proyecto Jira «orquestador-seed» (key SEED) y piloto de migración",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-024-montaje-proyecto-jira-piloto.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* Generador determinista de cargas (ítem del workboard → carga de issue JSON conforme al mapeo del runbook) en el repo, probado en local\n* Carga del piloto generada y validada en local: 16 campos mapeados, cero secretos, estructura conforme al runbook\n* Prueba final en Jira (crear proyecto + importar piloto + reconciliar por lectura) como subtarea diferible con dueño: operador\n\n\n\nh3. Touches\n\n* _dev/workboard/\n* fase-6-dominios/runbooks/migrar-tareas-a-jira.md\n* CHANGELOG.md",
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-024",
+    "archivo": "_dev/workboard/items/_done/SEED-024-montaje-proyecto-jira-piloto.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [],
+    "informes": "limpia"
+  }
+}

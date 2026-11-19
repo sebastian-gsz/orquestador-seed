@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-023] Migración de tareas del workboard a Jira (MCP) — mapeo y runbook; Compass como línea futura",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-023-migracion-tareas-jira.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* Mapeo completo campo a campo workboard → Jira documentado (ítem, estados, prioridades, clase, touches, decision_log, external, INDEX→tablero, release→fixVersion)\n* Runbook canónico de migración en fase-6-dominios/runbooks/ — con proyecto destino decidido por el operador (proyecto nuevo «orquestador-seed», key SEED) y pasos de montaje del proyecto pendientes de su aprobación\n* Dirección de la fuente de verdad declarada: el workboard local sigue siendo canónico hasta decisión expresa del operador de invertirla (Jira primero); la migración no duplica estado sin regla\n* Línea futura registrada en el parking lot: bitácoras y documentación → Compass (IDEA-3, a debate)\n* verify-workboard.mjs en verde en la misma entrega\n\n\n\nh3. Touches\n\n* fase-6-dominios/runbooks/\n* _dev/IDEAS-EXPERIMENTALES.md\n* CHANGELOG.md",
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ],
+    "fixVersions": [
+      {
+        "name": "v2.4.0"
+      }
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-023",
+    "archivo": "_dev/workboard/items/_done/SEED-023-migracion-tareas-jira.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [],
+    "informes": "limpia"
+  }
+}

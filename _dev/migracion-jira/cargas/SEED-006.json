@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-006] Estándar de seguridad: aislamiento de credenciales por servicio",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-006-credential-scoping.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* Nuevo protocolo protocolos/secretos.md con formato canónico (árbol de decisión, defaults, antipatrones): regla de una frase, tres vectores de fuga, tabla por situación, compañeros inseparables y auditoría «test de los dos greps»\n* protocolos/README.md: fila en el índice y regla de doble consulta (presencia de secreto → secretos.md además de la clase dominante)\n* red.md: referencia al protocolo en las reglas de credenciales/sesión\n* SEED.md: principio 10 ampliado con el aislamiento por servicio\n* trunk.md §5: cada secreto pertenece a un solo servicio\n* README y F7 criterio 14 actualizados a 5 protocolos\n* verify-workboard.mjs verde sobre _dev/workboard\n\n\n\nh3. Touches\n\n* fase-6-dominios/protocolos/\n* SEED.md\n* fase-3-plantillas/trunk.md\n* README.md\n* fase-7-verificacion.md",
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ],
+    "fixVersions": [
+      {
+        "name": "v2.0.0"
+      }
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-006",
+    "archivo": "_dev/workboard/items/_done/SEED-006-credential-scoping.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [],
+    "informes": "limpia"
+  }
+}

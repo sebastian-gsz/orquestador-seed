@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-013] Capa determinista: hooks nativos de git + test-first mode (§6.4)",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-013-deterministic-layer.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* fase-5-workboard/hooks/pre-commit: verificador del workboard (si el nodo está montado), instancia viva _dev, bloqueo de worktrees/.env y de secretos obvios en el diff; degradación con aviso si no hay node\n* README del workboard: sección «Capa determinista» con instalación core.hooksPath y lo que bloquea; contrato §2 mapa y §3 regla de requisitos mecanizados (tip 38)\n* Tríada ampliada a cuádruple (regla|check|hook|eval) en mapa §5 y agente.md regla 7\n* Plantilla de fruto §6.4: test first mode restaurado (perdido en la modularización v1.0.0)\n* Hook probado en fixture: commit con INDEX desincronizado BLOQUEADO, commit limpio APROBADO, .env BLOQUEADO\n* Hook instalado en la semilla (core.hooksPath) y verify-workboard.mjs verde sobre _dev/workboard\n\n\n\nh3. Touches\n\n* fase-5-workboard/\n* fase-1-mapa-maestro.md\n* fase-6-dominios/protocolos/agente.md\n* fase-3-plantillas/fruit.md",
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ],
+    "fixVersions": [
+      {
+        "name": "v2.0.0"
+      }
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-013",
+    "archivo": "_dev/workboard/items/_done/SEED-013-deterministic-layer.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [],
+    "informes": "limpia"
+  }
+}

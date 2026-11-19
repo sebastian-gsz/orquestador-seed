@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-002] Aislamiento de recursos locales: puertos y procesos (hueco 2)",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-002-resource-isolation.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* Contrato del workboard §5.2: port plan declarado en las Notas del ítem, procesos trazados y liberados al cierre, techo de concurrencia y limpieza de zombie por el siguiente claim\n* README del workboard: paso de recursos locales en el protocolo\n* Plantilla de ítem: recordatorio de puertos/procesos en Notas\n* verify-workboard.mjs verde sobre _dev/workboard\n\n\n\nh3. Touches\n\n* fase-5-workboard/",
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ],
+    "fixVersions": [
+      {
+        "name": "v2.0.0"
+      }
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-002",
+    "archivo": "_dev/workboard/items/_done/SEED-002-resource-isolation.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [],
+    "informes": "limpia"
+  }
+}

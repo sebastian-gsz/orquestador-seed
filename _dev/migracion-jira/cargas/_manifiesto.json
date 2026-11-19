@@ -1,0 +1,16 @@
+{
+  "generado": "2026-11-15T22:45:00+01:00",
+  "total": 28,
+  "por_estado": {
+    "To Do": 3,
+    "Done": 25
+  },
+  "por_fixVersion": {
+    "sin-release": 5,
+    "v2.0.0": 19,
+    "v2.1.0": 2,
+    "v2.3.0": 1,
+    "v2.4.0": 1
+  },
+  "nota": "La importación en Jira (createJiraIssue + transición al estado local + fixVersion) es la PRUEBA FINAL del plan — diferible con dueño: operador."
+}

@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-003] Entorno reproducible codificado (hueco 3)",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-003-codified-environment.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* Plantilla de tronco con §5 Entorno reproducible: tabla de herramientas/versiones, setup ejecutable desde cero y regla «si un tool no está declarado, no existe»\n* Protocolo topológico (README de plantillas) actualizado: los troncos declaran entorno, los frutos heredan\n* verify-workboard.mjs verde sobre _dev/workboard\n\n\n\nh3. Touches\n\n* fase-3-plantillas/",
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ],
+    "fixVersions": [
+      {
+        "name": "v2.0.0"
+      }
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-003",
+    "archivo": "_dev/workboard/items/_done/SEED-003-codified-environment.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [],
+    "informes": "limpia"
+  }
+}

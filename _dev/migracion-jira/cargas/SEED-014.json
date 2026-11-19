@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-014] Release v1.6.0",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-014-release-v1.6.0.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* CHANGELOG.md con entrada v1.6.0 (capa determinista + test-first)\n* CI de la semilla §7.5: verificador verde (ahora también vía hook), batería o justificación, CHANGELOG\n* Merge de feature/harness a develop y tag v1.6.0 en develop\n* Push lo ejecuta el operador; main permanece intocado\n\n\n\nh3. Touches\n\n* CHANGELOG.md",
+    "priority": {
+      "name": "Medium"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ],
+    "fixVersions": [
+      {
+        "name": "v2.0.0"
+      }
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-014",
+    "archivo": "_dev/workboard/items/_done/SEED-014-release-v1.6.0.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [],
+    "informes": "limpia"
+  }
+}

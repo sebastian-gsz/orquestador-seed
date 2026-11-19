@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-019] Integración v2.0.0 a main (rc.1 + fusión + release)",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-019-integration-v2.0.0.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* Tag v2.0.0-rc.1 sobre el estado pre-integración de main (d4fca4f, contenido v1.1.0)\n* CHANGELOG.md con entrada v2.0.0 (integración estable)\n* Merge de develop a main con commit de integración (--no-ff)\n* Tag v2.0.0 sobre el commit de integración en main\n* Contextos de release (rc.1 y v2.0.0) entregados al operador para publicar\n* Push lo ejecuta el operador (main, develop, feature/harness, todos los tags)\n\n\n\nh3. Touches\n\n* CHANGELOG.md",
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ],
+    "fixVersions": [
+      {
+        "name": "v2.0.0"
+      }
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-019",
+    "archivo": "_dev/workboard/items/_done/SEED-019-integration-v2.0.0.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [],
+    "informes": "limpia"
+  }
+}

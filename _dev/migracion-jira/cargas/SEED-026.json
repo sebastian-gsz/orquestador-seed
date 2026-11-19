@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-026] Fase 3 — Inversión de la fuente de verdad: Jira canónico para tareas, workboard local como espejo",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/SEED-026-inversion-fuente-verdad-jira.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* Decisión explícita del operador sobre dirección: Jira canónico + repo espejo, o coexistencia\n* Decisión explícita: stubs locales de ítems vs eliminación\n* Contratos actualizados (SEED §6, mapa §5, README del workboard) según la decisión\n\n\n\nh3. Touches\n\n* _dev/workboard/\n* fase-5-workboard/\n* SEED.md\n* fase-1-mapa-maestro.md",
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-026",
+    "archivo": "_dev/workboard/items/SEED-026-inversion-fuente-verdad-jira.md",
+    "estado_local": "open",
+    "estado_jira": "To Do",
+    "external": [],
+    "informes": "limpia"
+  }
+}

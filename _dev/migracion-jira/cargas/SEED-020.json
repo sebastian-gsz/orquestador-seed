@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-020] Autocorrección ascendente: hallazgos de destinos → issues del repo oficial",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-020-autocorreccion-ascendente-issues.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* Debate resuelto por el operador: ¿se incorpora la vía ascendente (destino → issue en el repo oficial) al corpus? ¿En qué forma y con qué formato mínimo de issue?\n* Si se aprueba: regla redactada en el corpus — mapa maestro §5 (cuádruple de refuerzo + issue ascendente), protocolo agente (auto-mejora) y/o contrato del workboard, con el formato de issue: qué pasó · evidencia · corrección local aplicada · propuesta de mejora · destino y versión de semilla\n* Si se aprueba: primera issue real abierta en el repo oficial con el caso de este ítem (duplicado de closed_at)\n* Release del corpus con la mejora (CHANGELOG vX.Y.Z + verificador en verde en _dev/workboard)\n\n\n\nh3. Touches\n\n* fase-5-workboard/\n* fase-6-dominios/protocolos/agente.md\n* fase-6-dominios/runbooks/\n* fase-1-mapa-maestro.md\n* fase-7-verificacion.md\n* SEED.md\n* CHANGELOG.md",
+    "priority": {
+      "name": "Medium"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ],
+    "fixVersions": [
+      {
+        "name": "v2.1.0"
+      }
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-020",
+    "archivo": "_dev/workboard/items/_done/SEED-020-autocorreccion-ascendente-issues.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [
+      "https://github.com/sebastian-gsz/orquestador-seed/issues/1"
+    ],
+    "informes": "limpia"
+  }
+}

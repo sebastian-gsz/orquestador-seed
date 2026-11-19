@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-021] Estandarizar la capa de credenciales de publicación (git credential helpers, Windows vs Linux)",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-021-credential-store-layer.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* Debate resuelto por el operador: ¿store plano con PAT de expiry corto como default canónico, o exigir llavero (libsecret/GCM)? ¿El check de remote-URL con token embebido al hook (100%) o como regla (80%)? ¿La divergencia Windows/Linux se documenta como excepción o se elimina instalando GCM en WSL?\n* Vía A aprobada: sección «El almacén: git credential helpers» en secretos.md — semántica acumulativa de credential.helper, truco del reset vacío, matriz por entorno\n* Vía B aprobada: runbook canónico «Publicar un repo destino por HTTPS» en docs/runbooks/ generalizando el flujo OPS-005\n* Vía C aprobada: check mecánico de remote con credenciales embebidas en la URL (verificador o pre-commit)\n* Release del corpus con lo aprobado (CHANGELOG vX.Y.Z + verificador en verde en _dev/workboard)\n\n\n\nh3. Touches\n\n* fase-6-dominios/protocolos/secretos.md\n* docs/runbooks/\n* fase-5-workboard/\n* SEED.md",
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ],
+    "fixVersions": [
+      {
+        "name": "v2.1.0"
+      }
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-021",
+    "archivo": "_dev/workboard/items/_done/SEED-021-credential-store-layer.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [],
+    "informes": "limpia"
+  }
+}

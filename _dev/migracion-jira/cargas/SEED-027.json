@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-027] Fase 4 — Mecanizar el ciclo Jira: hook de coherencia, verificador contra Jira y protocolo de sesión",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/SEED-027-mecanizar-ciclo-jira-hook-verificador.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* Hook pre-commit con check de coherencia ítem ↔ issue (credencial en el almacén de git, protocolo secretos; modo degradado sin red documentado: avisa, no bloquea)\n* Verificador que valida tareas contra Jira (verify-jira o modo de verify-workboard)\n* Protocolo de sesión reescrito (crear/reclamar/cerrar con Jira; claim = assignee + transición) y EVAL-1..5 actualizados\n* Demostración sobre el fixture o issue de prueba\n\n\n\nh3. Touches\n\n* fase-5-workboard/\n* fase-5-workboard/hooks/\n* fase-6-dominios/protocolos/agente.md\n* SEED.md",
+    "priority": {
+      "name": "High"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-027",
+    "archivo": "_dev/workboard/items/SEED-027-mecanizar-ciclo-jira-hook-verificador.md",
+    "estado_local": "open",
+    "estado_jira": "To Do",
+    "external": [],
+    "informes": "limpia"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-007] Release v1.3.0",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/_done/SEED-007-release-v1.3.0.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* CHANGELOG.md con entrada v1.3.0 (estándar de seguridad)\n* Merge de feature/harness a develop y tag v1.3.0 en develop\n* verify-workboard.mjs verde sobre _dev/workboard (índice vacío, ítems archivados)\n* Push lo ejecuta el operador (SSH interactivo); main permanece intocado\n\n\n\nh3. Touches\n\n* CHANGELOG.md",
+    "priority": {
+      "name": "Medium"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ],
+    "fixVersions": [
+      {
+        "name": "v2.0.0"
+      }
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-007",
+    "archivo": "_dev/workboard/items/_done/SEED-007-release-v1.3.0.md",
+    "estado_local": "done",
+    "estado_jira": "Done",
+    "external": [],
+    "informes": "limpia"
+  }
+}

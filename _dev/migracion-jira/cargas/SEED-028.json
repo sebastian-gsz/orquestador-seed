@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "project": {
+      "key": "ZCJ"
+    },
+    "issuetype": {
+      "name": "Task"
+    },
+    "summary": "[SEED-028] Fase 5 — Cierre del ciclo antiguo: workboard en solo-lectura, canal ascendente y release",
+    "description": "Migrada del workboard del corpus (_dev/workboard/items/SEED-028-cierre-ciclo-antiguo-release.md).\n\nFuente de verdad declarada: el workboard local es canónico hasta la decisión de SEED-026.\n\n\n\nh3. Criterios de aceptación\n\n* workboard local en modo solo-lectura o archivado según la decisión de SEED-026\n* Canal ascendente SEED-020 decidido (¿issues upstream en Jira?)\n* Release: CHANGELOG + tag + verificadores en verde + EVAL-1..5 en la nueva mecánica\n\n\n\nh3. Touches\n\n* _dev/workboard/\n* CHANGELOG.md\n* fase-7-verificacion.md",
+    "priority": {
+      "name": "Medium"
+    },
+    "labels": [
+      "class:agente",
+      "regimen:produccion"
+    ]
+  },
+  "_meta": {
+    "id_local": "SEED-028",
+    "archivo": "_dev/workboard/items/SEED-028-cierre-ciclo-antiguo-release.md",
+    "estado_local": "open",
+    "estado_jira": "To Do",
+    "external": [],
+    "informes": "limpia"
+  }
+}
